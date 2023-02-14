@@ -7,6 +7,8 @@
 [2] F. Siddiqui, M. Russell, B. Bardak, R. Woods and K. Rafferty, "[IPPro: FPGA based image processing processor](https://ieeexplore.ieee.org/abstract/document/6986057)" in IEEE Workshop on Signal Processing Systems (SiPS), Belfast, UK, 2014, pp. 1-6.
 
 [3] M. Amiri, F. Siddiqui, C. Kelly, et al. "[FPGA-Based Soft-Core Processors for Image Processing Applications](https://link.springer.com/article/10.1007/s11265-016-1185-7)" in Journal of Signal Processing Systems, 87, 139–156 (2017).
+  
+[4] C. Kelly, F. M. Siddiqui, B. Bardak and R. Woods, "[Histogram of oriented gradients front end processing: An FPGA based processor approach](https://ieeexplore.ieee.org/document/6986093)" in IEEE Workshop on Signal Processing Systems (SiPS), Belfast, UK, 2014, pp. 1-6.
 </p>
 
 ## Introduction
