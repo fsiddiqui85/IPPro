@@ -2,7 +2,8 @@
 
 ## Important References
 <p align="justify">
-[1] F. Siddiqui, S. Amiri, U. Minhas, "[FPGA-Based Processor Acceleration for Image Processing Applications](https://www.mdpi.com/2313-433X/5/1/16)" in Journal of Imaging 2019, 5, 16.
+
+[1] F. Siddiqui, S. Amiri, U. Minhas, "[FPGA-Based Processor Acceleration for Image Processing Applications](https://www.mdpi.com/394628)" in Journal of Imaging 2019, 5, 16.
 
 [2] F. Siddiqui, M. Russell, B. Bardak, R. Woods and K. Rafferty, "[IPPro: FPGA based image processing processor](https://ieeexplore.ieee.org/abstract/document/6986057)" in IEEE Workshop on Signal Processing Systems (SiPS), Belfast, UK, 2014, pp. 1-6.
 
