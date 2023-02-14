@@ -36,13 +36,11 @@ The IPPro datapath consists of:
 IPPro has a 32-bit instruction set architecture. Figure 2 shows the simplified IPPro frame structure where R<sub>A</sub>, R<sub>B</sub>, R<sub>C</sub>, R<sub>D</sub> and K<sub>n</sub> represents 5-bit address fields to point a location in RF or KM. R<sub>A</sub>, R<sub>B</sub>, R<sub>C</sub>, K<sub>n</sub> are source registers while R<sub>D</sub> is a destination register. The 5-bit OPCODE field represents a unique IPPro instruction. The 2-bit INSTR_TYPE field differentiates between supported addressing modes listed in Figure 3.
 </p>
 
-![Figure 2: IPPro instruction frame structure](images/IPPro-frame-structure.png)
+<img src="images/IPPro-frame-structure.png"  width="50%" height="50%" />
+Figure 2: IPPro instruction frame structure
 
-*Figure 2: IPPro instruction frame structure*
-
-![Figure 3: IPPro supported addressing modes](images/IPPro-addressing-modes.png)
-
-*Figure 3: IPPro supported addressing modes*
+<img src="images/IPPro-addressing-modes.png"  width="70%" height="70%" />
+Figure 3: IPPro supported addressing modes
 
 ## Pipelined Stream Processing
 <p align="justify">
@@ -53,7 +51,6 @@ The IPPro datapath is a five-stage pipeline soft-core processor composed of fetc
 <p align="justify">
 IPPro is a soft-core processor architecture has written in Verilog, synthesised and implemented using Xilinx Vivado Design Suite v2015.2. Figure 4 reports the implementation results obtained using tool’s default settings. The implementation results show that IPPro consumes < 1% of Kintex-7 (ZC706) FPGA resources and delivers 337 MIPS while maintaining BRAM/DSP ratio equal to unity. The IPPro design has ported to various FPGA fabrics to analyse the potential performance, by implementing it on widely available Xilinx development boards used by research community which are ZedBoard (XC7Z020CLG484-1), ZC706 (XC7Z045FFG900-2) and VC707 (XC7VX485T-2). Figure 4 shows the maximum possible frequency f Max on the selected Xilinx development boards.
 </p>
-
-![Figure 4: IPPro implementation results on selected Xilinx development boards](images/IPPro-implementation-results.png)
   
-*Figure 4: IPPro implementation results on selected Xilinx development boards.*
+<img src="images/IPPro-implementation-results.png"  width="40%" height="40%" />
+Figure 4: IPPro implementation results on selected Xilinx development boards
